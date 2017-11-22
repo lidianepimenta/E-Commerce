@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    <h:head>
+        <title>Lazy Games</title>
+        <link href="resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="resources/js/jquery.min.js"></script>
+        <!-- Custom Theme files -->
+        <!--theme-style-->
+        <link href="resources/css/style.css" rel="stylesheet" type="text/css" media="all" />	
+        <!--//theme-style-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="Sport Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+              Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!--fonts-->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'/>
+        <!--//fonts-->
+        <link rel="stylesheet" href="resources/css/etalage.css"/>
+        <script src="resources/js/jquery.etalage.min.js"></script>
+        <script>
+            jQuery(document).ready(function ($) {
+
+                $('#etalage').etalage({
+                    thumb_image_width: 300,
+                    thumb_image_height: 400,
+                    source_image_width: 900,
+                    source_image_height: 1200,
+                    show_hint: true,
+                    click_callback: function (image_anchor, instance_id) {
+                        alert('Callback example:\nYou clicked on an image with the anchor: "' + image_anchor + '"\n(in Etalage instance: "' + instance_id + '")');
+                    }
+                });
+
+            });
+        </script>
+
+    </h:head>
+    <body style="background-color: #fff;">
+        <!--header-->
+        <div class="line">
+
+        </div>
+        <div class="header">
+            <div class="logo">
+                <a href="index.xhtml"><img src="resources/images/logo.png" alt="" ></img></a>
+            </div>
+            <div  class="header-top">
+                <div class="header-grid">
+                    <ul class="header-in">
+                        <li ><a href="contact.xhtml">QUEM SOMOS</a> </li>
+                        <li ><a href="contact.xhtml">POLÍTICAS DO SITE  </a> </li>
+                        <li ><a href="contact.xhtml">FALE CONOSCO  </a> </li>
+
+                    </ul>
+                    <div class="search-box">
+                        <div id="sb-search" class="sb-search">
+                            <form>
+                                <input class="sb-search-input" placeholder="Digite aqui sua pesquisa..." type="search" name="search" id="search"/>
+                                <input class="sb-search-submit" type="submit" value=""/>
+                                <span class="sb-icon-search"> </span>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- search-scripts -->
+                    <script src="js/classie.js"></script>
+                    <script src="js/uisearch.js"></script>
+                    <script>
+            new UISearch(document.getElementById('sb-search'));
+                    </script>
+                    <!-- //search-scripts -->
+                    <div class="online">
+                        <a href="account.xhtml">LOGIN</a>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="h_menu4">
+
+                        <!-- start h_menu4 -->
+                        <a class="toggleMenu" href="#">Menu</a>
+                        <ul class="nav">
+                            <li class="active"><a href="product.xhtml">Xbox One</a>
+                                <ul>
+                                    <li><a href="product.xhtml">Ação</a></li>
+                                    <li><a href="product.xhtml">Aventura</a></li>
+                                    <li><a href="product.xhtml">Corrida</a></li>
+                                    <li><a href="product.xhtml">Estrategia/RPG</a></li>
+                                    <li><a href="product.xhtml">Esporte</a></li>
+                                    <li><a href="product.xhtml">Guerra</a></li>
+                                    <li><a href="product.xhtml">Musica</a></li>
+                                    <li><a href="product.xhtml">Tiro</a></li>
+                                </ul></li>
+
+                            <li><a href="product.xhtml">Xbox 360</a>
+                                <ul>
+                                    <li><a href="product.xhtml">Ação</a></li>
+                                    <li><a href="product.xhtml">Aventura</a></li>
+                                    <li><a href="product.xhtml">Corrida</a></li>
+                                    <li><a href="product.xhtml">Estrategia/RPG</a></li>
+                                    <li><a href="product.xhtml">Esporte</a></li>
+                                    <li><a href="product.xhtml">Guerra</a></li>
+                                    <li><a href="product.xhtml">Musica</a></li>
+                                    <li><a href="product.xhtml">Tiro</a></li>
+                                </ul></li>					
+
+
+                            <li><a href="product.xhtml">Playstation 4</a>
+                                <ul>
+                                    <li><a href="product.xhtml">Ação</a></li>
+                                    <li><a href="product.xhtml">Aventura</a></li>
+                                    <li><a href="product.xhtml">Corrida</a></li>
+                                    <li><a href="product.xhtml">Estrategia/RPG</a></li>
+                                    <li><a href="product.xhtml">Esporte</a></li>
+                                    <li><a href="product.xhtml">Guerra</a></li>
+                                    <li><a href="product.xhtml">Musica</a></li>
+                                    <li><a href="product.xhtml">Tiro</a></li>
+                                </ul></li>
+
+                            <li><a href="product.xhtml">Playstation 3</a>
+                                <ul>
+                                    <li><a href="product.xhtml">Ação</a></li>
+                                    <li><a href="product.xhtml">Aventura</a></li>
+                                    <li><a href="product.xhtml">Corrida</a></li>
+                                    <li><a href="product.xhtml">Estrategia/RPG</a></li>
+                                    <li><a href="product.xhtml">Esporte</a></li>
+                                    <li><a href="product.xhtml">Guerra</a></li>
+                                    <li><a href="product.xhtml">Musica</a></li>
+                                    <li><a href="product.xhtml">Tiro</a></li>
+                                </ul></li>
+
+                            <li><a href="product.xhtml">PC</a>
+                                <ul>
+                                    <li><a href="product.xhtml">Ação</a></li>
+                                    <li><a href="product.xhtml">Aventura</a></li>
+                                    <li><a href="product.xhtml">Corrida</a></li>
+                                    <li><a href="product.xhtml">Estrategia/RPG</a></li>
+                                    <li><a href="product.xhtml">Esporte</a></li>
+                                    <li><a href="product.xhtml">Guerra</a></li>
+                                    <li><a href="product.xhtml">Musica</a></li>
+                                    <li><a href="product.xhtml">Tiro</a></li>		
+                                </ul></li>
+
+                            <li><a href="product.xhtml">Jogos Usados</a>
+                                <ul>
+                                    <li><a href="product.xhtml">Revenda</a></li>
+                                    <li><a href="contact.xhtml">Compra</a></li>       
+                                </ul></li>
+
+
+                            <script type="text/javascript" src="js/nav.js"></script>
+                        </ul></div>
+
+                    <!-- end h_menu4 -->
+                    <ul class="header-bottom-in">
+                        <li style="color: white; margin-right: 30px; margin-top: 3px; font-size: 20px">
+                            <a href="account.xhtml" style="color: white; margin-left:5px; ">Carrinho<img src="resources/images/carrinho.png" style="float: left"></img></a>
+                        </li></ul>
+
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <!---->
+        <!---->
+        <div class="container" style="background-color: #fff;">
+            <div class="register" style="background-color: #fff;">
+                <h2>Cadastro Pessoa Fisica</h2>		
+                <div class=" register-top">
+                    <form>
+                        <div> 	
+                            <span>Nome</span>
+                            <input type="text" style="background-color: #dcdcdc "/> 
+                        </div>
+                        <div> 	
+                            <span>Sobrenome</span>
+                            <input type="text" style="background-color: #dcdcdc "/> 
+                        </div>
+                        <div> 	
+                            <span>Email</span>
+                            <input type="text" style="background-color: #dcdcdc " placeholder="Ex: exemplo@email.com"/> 
+                        </div>
+                        <div>
+                            <span>CPF</span>
+                            <input type="text" style="width: 400px;background-color: #dcdcdc " placeholder="Ex: 000.000.000-00"/>
+                        </div>
+
+                        <div> 
+                            <span>Sexo</span>
+                            <input type="radio" name="sexo" value="Masculino" style="margin-top: 15px"/> Masculino
+                            <input type="radio" name="sexo" value="Masculino"/> Feminino
+                            <span style="margin-left: 250px; margin-top: -65px" >Data de nascimento</span>
+                            <input type="text" style="width: 170px; margin-left: 250px; background-color: #dcdcdc"  placeholder="Ex: DD/MM/AA"/> 
+                            <span style="margin-left: 500px; margin-top: -83px">Telefone</span>
+                            <input type="text" style="width: 180px; margin-left: 500px;background-color: #dcdcdc" placeholder="DDD + número"/> 
+                        </div>				
+                        <div> 	
+                            <span>Endereço</span>
+                            <input type="text" style="background-color: #dcdcdc " placeholder="Endereço"/> 
+                        </div>
+                        <div> 	
+                            <span>Número</span>
+                            <input type="text" style="width: 80px;background-color: #dcdcdc " placeholder="Ex: 999"/> 
+                            
+                            <span style="margin-left: 120px; margin-top: -80px">Complemento</span>
+                            <input type="text" style="width: 250px; margin-left: 120px;background-color: #dcdcdc " placeholder="Ex: Ap. 901"/> 
+                            
+                            <span style="margin-left: 410px; margin-top: -80px">Bairro</span>
+                            <input type="text" style="width: 275px; margin-left: 410px;margin-top: -2px; background-color: #dcdcdc " /> 
+                        </div>
+                        <div> 	
+                            <span>Cidade</span>
+                            <input type="text" style="width: 570px; background-color: #dcdcdc " placeholder="Ex: São Paulo"/> 
+                            <span style="margin-left: 590px; margin-top: -80px;">Estado</span>
+                            <input type="text" style="width: 95px; margin-left: 590px; margin-top: -1px;background-color: #dcdcdc " placeholder="Ex: SP"/> 
+                        </div>
+                        <input type="submit" value="Enviar"/> 
+                    </form>
+                </div>		
+            </div>
+        </div>
+
+
+        <!---->
+        <!--footer-->
+        <div class="footer">
+            <div class="col-md-3 footer-left">
+                <h4>Categorias</h4>
+                <div class="run-top">
+                    <ul class="run-grid">
+                        <li><a href="product.xhtml">AÇÃO</a></li>
+                        <li><a href="product.xhtml">AVENTURA</a></li>
+                        <li><a href="product.xhtml">CORRIDA</a></li>
+                        <li><a href="product.xhtml">ESTRATEGIA/RPG</a></li>
+                        <li><a href="product.xhtml">ESPORTES</a></li>
+                        <li><a href="product.xhtml">MUSÍCA</a></li>
+                    </ul>
+                    <ul class="run-grid">
+                        <li><a href="product.xhtml">TIRO</a></li>
+                    </ul>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+            <div class="col-md-3 footer-left left-footer">
+                <h4>Site</h4>
+                <div class="run-top top-run">
+                    <ul class="run-grid">
+                        <li><a href="#">Eventos</a></li>
+                        <li><a href="https://www.youtube.com/user/PlayStation">Videos</a></li>
+                        <li><a href="single.xhtml">Shopping</a></li>
+                        <li><a href="http://br.ign.com/esports">Mais E-sports</a></li>
+                    </ul>
+
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+            <div class="col-md-2 footer-left left-footer">
+                <h4>Sua Conta</h4>
+                <ul class="run-grid-in">
+                    <li><a href="account.xhtml">Login</a></li>
+                    <li><a href="register.xhtml">Cadastro</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 footer-left left-footer">
+                <ul class="social-in">
+                    <li><a href="#"><i> </i></a></li>
+                    <li><a href="#"><i class="youtube"> </i></a></li>
+                    <li><a href="#"><i class="facebook"> </i></a></li>
+
+
+                </ul>
+                <div class="letter">
+
+                    <a href="account.xhtml" class="sign">Faça o login e Conheça mais</a>
+                    <p class="footer-class"> © 2016 Lazy Games todos os jogos para o seu console  <a href="http://w3layouts.com/" target="_blank"></a> </p>
+                </div>
+
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </body>
+</html>
